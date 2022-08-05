@@ -3,6 +3,7 @@
 vel = float(input('Qual a velocidade: '))
 m = (vel - 80)*7
 if vel > 80:
-    print(f'Você foi multado no valor de R${m}')
+    print(
+        f' MULTADO! Você excedeu o limite permitido que é de 80Km/h \n A multa será no valor de R${m}')
 else:
     print('Continue sempre respeitando o limite de velocidade. Boa viagem!')
