@@ -1,8 +1,6 @@
 # ======= Emoji bugado ========
 from emoji import emojize
 print(emojize('Olá mundo! :call_me_hand:'))
-
-
 print(emojize("Olá mundo! :smile:", language='alias'))
 
 # ======= Raiz quadrada ========
